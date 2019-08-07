@@ -1,5 +1,47 @@
 #mainCanvas{
+	align-self: center;
 	width: 400px;
 	height: 400px;
 	border: solid 1px black;
+}
+h1{
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	border-bottom: 5px solid pink;
+	padding-bottom: 30px;
+}
+#menu{
+	font-weight: bold;
+}
+#grid{
+	margin-left: 200px;
+	margin-right: 200px;
+	display: grid;
+	grid-template-columns: 150px 1fr;
+}
+@media (max-width: 800px) {
+	#grid{
+		display: block;
+	}
+	h1{
+		border-bottom: none;
+	}
+	ul{
+		float:left;
+	}
+}
+ul{
+	padding-left: 0px;
+	text-align: center;
+}
+div{
+	border: 5px, solid gray;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+p{
+	text-align: center;
 }

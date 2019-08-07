@@ -1,2 +1,5 @@
-# Js_Study
-JavaScript Study
+# GD-GJ HomePage
+
+## Hello world!!
+
+This is GDGJ Homepage

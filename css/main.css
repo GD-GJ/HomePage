@@ -16,12 +16,13 @@ h1{
 	border-bottom: 1px solid pink;
 }
 #menu{
+	display: grid;
 	font-weight: bold;
 	text-align: center;
 	height: 30px;
-	width: 700px;
 	margin: 0 auto;
 	list-style-type: none;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 li{
 	float:left;
